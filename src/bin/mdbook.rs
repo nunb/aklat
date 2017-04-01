@@ -1,4 +1,4 @@
-extern crate mdbook;
+extern crate aklat as mdbook;
 #[macro_use]
 extern crate clap;
 extern crate log;
