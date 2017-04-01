@@ -3,8 +3,7 @@
 Aklat is a fork of [mdBook](https://github.com/azerupi/mdBook)
 It provides additional functionality of markdown by using [spongedown](https://ivanceras/github.io/spongedown)
 
-## Demo
-Generated book for [spongedown](https:/ivanceras.github.io/spongedown) is generated using this project
+[Demo](https:/ivanceras.github.io/spongedown) - Generated book for [spongedown](https:/ivanceras.github.io/spongedown) is generated using this project
 
  
 <table>
