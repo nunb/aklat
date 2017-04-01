@@ -16,7 +16,7 @@ It provides additional functionality of markdown by using [spongedown](https://i
     <tr>
         <td><strong>Windows</strong></td>
         <td>
-            <a href="https://ci.appveyor.com/project/ivanceras/aklat/"><img src="https://ci.appveyor.com/api/projects/status/o38racsnbcospyc8/branch/master?svg=true"></a>
+            <a href="https://ci.appveyor.com/project/ivanceras/aklat/"><img src="https://ci.appveyor.com/api/projects/status/gug6vmnk7iueks3a?svg=true"></a>
         </td>
     </tr>
     <tr>
