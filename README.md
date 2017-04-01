@@ -1,22 +1,27 @@
-# mdBook
+#  Aklat
 
+Aklat is a fork of [mdBook](https://github.com/azerupi/mdBook)
+It provides additional functionality of markdown by using [spongedown](https://ivanceras/github.io/spongedown)
+
+
+ 
 <table>
     <tr>
         <td><strong>Linux / OS X</strong></td>
         <td>
-            <a href="https://travis-ci.org/azerupi/mdBook"><img src="https://travis-ci.org/azerupi/mdBook.svg?branch=master"></a>
+            <a href="https://travis-ci.org/ivanceras/aklat"><img src="https://travis-ci.org/ivanceras/aklat.svg?branch=master"></a>
         </td>
     </tr>
     <tr>
         <td><strong>Windows</strong></td>
         <td>
-            <a href="https://ci.appveyor.com/project/azerupi/mdbook/"><img src="https://ci.appveyor.com/api/projects/status/o38racsnbcospyc8/branch/master?svg=true"></a>
+            <a href="https://ci.appveyor.com/project/ivanceras/aklat/"><img src="https://ci.appveyor.com/api/projects/status/o38racsnbcospyc8/branch/master?svg=true"></a>
         </td>
     </tr>
     <tr>
         <td colspan="2">
-            <a href="https://crates.io/crates/mdbook"><img src="https://img.shields.io/crates/v/mdbook.svg"></a>
-            <a href="LICENSE"><img src="https://img.shields.io/crates/l/mdbook.svg"></a>
+            <a href="https://crates.io/crates/aklat"><img src="https://img.shields.io/crates/v/aklat.svg"></a>
+            <a href="LICENSE"><img src="https://img.shields.io/crates/l/aklat.svg"></a>
         </td>
     </tr>
 </table>
@@ -35,13 +40,11 @@ The [**Documentation**](http://azerupi.github.io/mdBook/) for mdBook has been wr
 
 There are multiple ways to install mdBook.
 
-1. **Binaries**  
-   Binaries are available for download [here](https://github.com/azerupi/mdBook/releases). Make sure to put the path to the binary into your `PATH`.
 
 2. **From Crates.io**  
    This requires [Rust and Cargo](https://www.rust-lang.org/) to be installed. Once you have installed Rust, type the following in the terminal:
    ```
-   cargo install mdbook
+   cargo install aklat
    ```
 
    This will download and compile mdBook for you, the only thing left to do is to add the Cargo bin directory to your `PATH`.
@@ -50,7 +53,7 @@ There are multiple ways to install mdBook.
    The version published to crates.io will ever so slightly be behind the version hosted here on GitHub. If you need the latest version you can build the git version of mdBook yourself. Cargo makes this ***super easy***!
 
    ```
-   cargo install --git https://github.com/azerupi/mdBook.git
+   cargo install --git https://github.com/ivanceras/aklat.git
    ```
    Again, make sure to add the Cargo bin directory to your `PATH`.
 
@@ -58,9 +61,9 @@ There are multiple ways to install mdBook.
    If you want to contribute to mdBook you will have to clone the repository on your local machine:
 
    ```
-   git clone https://github.com/azerupi/mdBook.git
+   git clone https://github.com/ivanceras/aklat.git
    ```
-   `cd` into `mdBook/` and run
+   `cd` into `aklat/` and run
 
    ```
    cargo build
@@ -76,7 +79,7 @@ mdBook will primarily be used as a command line tool, even though it exposes all
 
 Here are the main commands you will want to run. For a more exhaustive explanation, check out the [documentation](http://azerupi.github.io/mdBook/).
 
-- `mdbook init`
+- `aklat init`
 
     The init command will create a directory with the minimal boilerplate to start with.
 
@@ -92,17 +95,17 @@ Here are the main commands you will want to run. For a more exhaustive explanati
 
     Please, take a look at the [**Documentation**](http://azerupi.github.io/mdBook/cli/init.html) for more information and some neat tricks.
 
-- `mdbook build`
+- `aklat build`
 
     This is the command you will run to render your book, it reads the `SUMMARY.md` file to understand the structure of your book, takes the markdown files in the source directory as input and outputs static html pages that you can upload to a server.
 
-- `mdbook watch`
+- `aklat watch`
 
-    When you run this command, mdbook will watch your markdown files to rebuild the book on every change. This avoids having to come back to the terminal to type `mdbook build` over and over again.
+    When you run this command, aklat will watch your markdown files to rebuild the book on every change. This avoids having to come back to the terminal to type `aklat build` over and over again.
 
-- `mdbook serve`
+- `aklat serve`
 
-    Does the same thing as `mdbook watch` but additionally serves the book at `http://localhost:3000` (port is changeable) and reloads the browser when a change occurs.
+    Does the same thing as `aklat watch` but additionally serves the book at `http://localhost:3000` (port is changeable) and reloads the browser when a change occurs.
 
 ### As a library
 
