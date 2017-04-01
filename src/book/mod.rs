@@ -72,7 +72,7 @@ impl MDBook {
     /// `(section: String, bookitem: &BookItem)`
     ///
     /// ```no_run
-    /// # extern crate mdbook;
+    /// # extern crate aklat as mdbook;
     /// # use mdbook::MDBook;
     /// # use mdbook::BookItem;
     /// # use std::path::Path;
@@ -288,7 +288,7 @@ impl MDBook {
     /// The root directory is the one specified when creating a new `MDBook`
     ///
     /// ```no_run
-    /// # extern crate mdbook;
+    /// # extern crate aklat as mdbook;
     /// # use mdbook::MDBook;
     /// # use std::path::Path;
     /// # fn main() {
@@ -320,7 +320,7 @@ impl MDBook {
     /// is for your renderer to implement the [Renderer trait](../../renderer/renderer/trait.Renderer.html)
     ///
     /// ```no_run
-    /// extern crate mdbook;
+    /// extern crate aklat as mdbook;
     /// use mdbook::MDBook;
     /// use mdbook::renderer::HtmlHandlebars;
     /// # use std::path::Path;

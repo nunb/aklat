@@ -4,7 +4,7 @@ mdBook is not only a command line tool, it can be used as a crate. You can exten
 integrate it in current projects. Here is a short example:
 
 ```rust,ignore
-extern crate mdbook;
+extern crate aklat as mdbook;
 
 use mdbook::MDBook;
 use std::path::Path;

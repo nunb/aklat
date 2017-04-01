@@ -18,7 +18,7 @@
 //! ## Example
 //!
 //! ```no_run
-//! extern crate mdbook;
+//! extern crate aklat as mdbook;
 //!
 //! use mdbook::MDBook;
 //! use std::path::Path;
@@ -41,7 +41,7 @@
 //! And then you can swap in your renderer like this:
 //!
 //! ```no_run
-//! # extern crate mdbook;
+//! # extern crate aklat as mdbook;
 //! #
 //! # use mdbook::MDBook;
 //! # use mdbook::renderer::HtmlHandlebars;
