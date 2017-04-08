@@ -93,7 +93,7 @@ impl HelperDef for RenderToc {
             // Section does not necessarily exist
             if let Some(section) = item.get("section") {
                 try!(rc.writer.write_all("<strong>".as_bytes()));
-                try!(rc.writer.write_all(section.as_bytes()));
+                //try!(rc.writer.write_all(section.as_bytes()));
                 try!(rc.writer.write_all("</strong> ".as_bytes()));
             }
 
