@@ -416,6 +416,19 @@ table thead td {
 .light pre > .result {
   margin-top: 10px;
 }
+.light svg {
+  fill: #333333;
+  background-color: #ffffff;
+}
+.light svg line,
+.light svg path, 
+.light svg circle {
+  stroke: #333333!important;
+}
+.light svg circle{
+  fill: #ffffff!important
+}
+
 .coal {
   color: #98a3ad;
   background-color: #141617;
@@ -533,18 +546,15 @@ table thead td {
 }
 /* svg styles */
 .coal svg {
-  color: #98a3ad;
+  fill: #98a3ad;
   background-color: #141617;
 }
 
-.coal svg line,path,circle {
+.coal svg line,
+.coal svg path,
+.coal svg circle {
   stroke: #98a3ad!important;
 }
-
-.coal svg text,marker {
-  fill: #98a3ad!important;
-}
-
 .coal svg circle {
   fill: #141617!important;
 }
@@ -664,6 +674,18 @@ table thead td {
 .navy pre > .result {
   margin-top: 10px;
 }
+.navy svg {
+  fill: #bcbdd0;
+  background-color: #161923;
+}
+.navy svg line,
+.navy svg path,
+.navy svg circle {
+  stroke: #bcbdd0!important;
+}
+.navy svg circle { 
+  fill: #161923!important;
+}
 .rust {
   color: #262625;
   background-color: #e1e1db;
@@ -779,6 +801,19 @@ table thead td {
 .rust pre > .result {
   margin-top: 10px;
 }
+.rust svg {
+  fill: #262625;
+  background-color: #e1e1db;
+}
+.rust svg line,
+.rust svg path,
+.rust svg circle {
+  stroke: #262625!important;
+}
+.rust svg circle{
+  fill: #e1e1db!important;
+}
+
 @media only print {
   #sidebar,
   #menu-bar,
