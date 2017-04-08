@@ -531,6 +531,24 @@ table thead td {
 .coal pre > .result {
   margin-top: 10px;
 }
+/* svg styles */
+.coal svg {
+  color: #98a3ad;
+  background-color: #141617;
+}
+
+.coal svg line,path,circle {
+  stroke: #98a3ad!important;
+}
+
+.coal svg text,marker {
+  fill: #98a3ad!important;
+}
+
+.coal svg circle {
+  fill: #141617!important;
+}
+
 .navy {
   color: #bcbdd0;
   background-color: #161923;
