@@ -99,7 +99,7 @@ $( document ).ready(function() {
             $('.theme-popup').remove();
         } else {
             var popup = $('<div class="theme-popup"></div>')
-                .append($('<div class="theme" id="light">Light <span class="default">(default)</span><div>'))
+                .append($('<div class="theme" id="light">Light<div>'))
                 .append($('<div class="theme" id="rust">Rust</div>'))
                 .append($('<div class="theme" id="coal">Coal</div>'))
                 .append($('<div class="theme" id="navy">Navy</div>'));
